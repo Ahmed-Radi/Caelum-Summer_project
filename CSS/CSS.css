@@ -1,0 +1,230 @@
+/*Start Main*/
+body
+{
+  padding:0;
+  margin: 0;
+  height: 3000px;
+}
+.container
+{
+  width: 1170px;
+  margin:auto;
+}
+/*End Main*/
+
+/*Start Navber*/
+.navbar
+{
+  background-color: #000020;
+  height: 50px;
+}
+/*Start Navber Info*/
+.navbar .nav_info
+{
+  color: rgba(255, 250, 255, 0.5);
+  width: 50%;
+  float: left;
+}
+
+/*Start Email Section*/
+.navbar .nav_info .info_mail
+{
+  width: 35%;
+  float: left;
+  display: inline;
+}
+.navbar .nav_info .info_mail img
+{
+  margin:0;
+  padding:0;
+  margin-left: 11px;
+  margin-top: 18px;
+  height: 19px;
+  width: 19px;
+}
+.navbar .nav_info .info_mail p
+{
+  margin-top:20px ;
+  margin-right: 15px;
+  font-size: 13px;
+  text-align: center;
+  padding: 0;
+  color: #949494;
+  float: right;
+}
+/*End Email Section*/
+
+/*Start Phone Section*/
+.navbar .nav_info .info_phone
+{
+  width: 35%;
+  float: left;
+}
+.navbar .nav_info .info_phone img
+{
+  margin:0;
+  padding:0;
+  margin-left: 35px;
+  margin-top: 20px;
+  height: 15px;
+  width: 15px;
+}
+.navbar .nav_info .info_phone p
+{
+  margin-top:20px ;
+  margin-right: 55px;
+  font-size: 13px;
+  text-align: center;
+  padding: 0;
+  color: #949494;
+  float: right;
+}
+/*End Phone Section*/
+
+/*End Navber Info*/
+
+/*Start Navber login*/
+.navbar .nav_login
+{
+  width: 50%;
+  float: right;
+}
+.navbar .nav_login .Contact
+{
+  width: 200px;
+  margin-right: 120px;
+  float:right;
+}
+.navbar .nav_login p
+{
+  margin-right: 20px;
+  margin-top: 14px;
+  font-size: 18px;
+  color: #bbbbbb;
+  float: right;
+  text-transform: uppercase;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.navbar .nav_login button
+{
+  height: 30px;
+  width: 90px;
+  border: none;
+  margin-top: 10px;
+  padding: 0px;
+  background-color: #f7c212;
+  text-align: center;
+  float: right;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.navbar .nav_login button:hover
+{
+  background-color: #f5f5f5;
+  color: #f7c212;
+}
+/*End Navber login*/
+
+/*End Navbar*/
+
+/**********************************/
+
+/*Start Second Section in navbar*/
+
+.second_nav
+{
+  height: 110px;
+}
+/*Logo*/
+.second_nav .logo
+{
+  width: 30%;
+}
+.second_nav .logo img
+{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 19px;
+  margin-left: 22px;
+  float: left;
+}
+/*End Logo*/
+
+/*NavBAR*/
+.second_nav .main_nav
+{
+  width: 63%;
+  float: right;
+  margin-top: 17px;
+  font-family: monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.second_nav .main_nav ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding:0px;
+  height: 50px;
+  float: left;
+  overflow: hidden;
+}
+.second_nav .main_nav ul li
+{
+  float: left;
+}
+.second_nav .main_nav ul li a
+{
+  display: block;
+  color: #000;
+  padding: 16px 18px;
+  text-align: center;
+  text-decoration:none;
+}
+.second_nav .main_nav ul li a:hover
+{
+  color: #f7c212;
+}
+/*End NAVBAR*/
+
+/*End Second Section in navbar*/
+
+/*//////////////*/
+
+/*Start Third Section*/
+
+  /*SlidShow*/
+    .slideShowContainer
+    {
+      width: 100%;
+      height: 800px;
+      box-shadow:0px 0px 3px 1px #00000078;
+      box-size : border-box;
+      margin: -15px 0px 0px 0px;
+      overflow: hidden;
+      background-repeat:no-repeat;
+    }
+    .slideShowContainer .imageContainer .imageslide img
+    {
+      width: 100%;
+      height: 100%;
+    }
+  .slideShowContainer .imageContainer .imageslide p
+  {
+    font-size: 30px;
+    font-family: fantasy;
+    overflow: hidden;
+    margin: auto;
+  }
+  /*End Slideshow*//*
+.slideShowContainer .imageContainer
+{
+  width: 100%;
+  height: 1000px;
+  margin: 78px auto;
+  overflow: hidden;
+}*/
+/*End Third Section*/
