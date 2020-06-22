@@ -10,6 +10,9 @@ body
   width: 1170px;
   margin:auto;
 }
+p{
+  margin-bottom: 0px;
+}
 /*End Main*/
 
 /*Start Navber*/
@@ -17,67 +20,67 @@ body
 {
   background-color: #000020;
   height: 50px;
+  overflow: hidden;
 }
 /*Start Navber Info*/
 .navbar .nav_info
 {
   color: rgba(255, 250, 255, 0.5);
-  width: 50%;
+  width: 75%;
   float: left;
 }
 
 /*Start Email Section*/
 .navbar .nav_info .info_mail
 {
-  width: 35%;
   float: left;
-  display: inline;
+  text-align: center;
+  margin-top: 5px;
+  width: 25%;
 }
 .navbar .nav_info .info_mail img
 {
   margin:0;
   padding:0;
-  margin-left: 11px;
-  margin-top: 18px;
   height: 19px;
   width: 19px;
+  float: left;
 }
 .navbar .nav_info .info_mail p
 {
-  margin-top:20px ;
-  margin-right: 15px;
   font-size: 13px;
   text-align: center;
   padding: 0;
   color: #949494;
-  float: right;
+  float: left;
+  margin-left: 10px;
 }
 /*End Email Section*/
 
 /*Start Phone Section*/
 .navbar .nav_info .info_phone
 {
-  width: 35%;
+  width: 33%;
   float: left;
+  margin-top: 5px;
+
 }
 .navbar .nav_info .info_phone img
 {
-  margin:0;
+  margin-top: 5px;
   padding:0;
-  margin-left: 35px;
-  margin-top: 20px;
   height: 15px;
   width: 15px;
+  float: left;
 }
 .navbar .nav_info .info_phone p
 {
-  margin-top:20px ;
-  margin-right: 55px;
   font-size: 13px;
   text-align: center;
   padding: 0;
   color: #949494;
-  float: right;
+  float: left;
+  margin-left: 10px;
 }
 /*End Phone Section*/
 
@@ -86,19 +89,17 @@ body
 /*Start Navber login*/
 .navbar .nav_login
 {
-  width: 50%;
-  float: right;
+  width: 25%;
+  float: left;
 }
 .navbar .nav_login .Contact
 {
-  width: 200px;
-  margin-right: 120px;
-  float:right;
+  float:left;
 }
 .navbar .nav_login p
 {
   margin-right: 20px;
-  margin-top: 14px;
+
   font-size: 18px;
   color: #bbbbbb;
   float: right;
@@ -111,7 +112,6 @@ body
   height: 30px;
   width: 90px;
   border: none;
-  margin-top: 10px;
   padding: 0px;
   background-color: #f7c212;
   text-align: center;
@@ -120,7 +120,9 @@ body
   text-transform: uppercase;
   font-family: fantasy;
   letter-spacing: 2px;
+  display: inline-block;
 }
+
 .navbar .nav_login button:hover
 {
   background-color: #f5f5f5;
@@ -197,28 +199,7 @@ body
 /*Start Third Section*/
 
   /*SlidShow*/
-    .slideShowContainer
-    {
-      width: 100%;
-      height: 800px;
-      box-shadow:0px 0px 3px 1px #00000078;
-      box-size : border-box;
-      margin: -15px 0px 0px 0px;
-      overflow: hidden;
-      background-repeat:no-repeat;
-    }
-    .slideShowContainer .imageContainer .imageslide img
-    {
-      width: 100%;
-      height: 100%;
-    }
-  .slideShowContainer .imageContainer .imageslide p
-  {
-    font-size: 30px;
-    font-family: fantasy;
-    overflow: hidden;
-    margin: auto;
-  }
+
   /*End Slideshow*//*
 .slideShowContainer .imageContainer
 {
