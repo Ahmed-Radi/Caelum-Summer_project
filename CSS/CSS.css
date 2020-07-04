@@ -188,7 +188,7 @@ p{
 }
 .second_nav .main_nav ul li a:hover
 {
-  color: #f7c212;
+  color: #f7c213;
 }
 /*End NAVBAR*/
 
@@ -203,7 +203,55 @@ p{
 
 /**********************************/
 
-/*Start Third Section*/
+/*Start fourth Section*/
+.fourth
+{
+  padding-top: 50px;
+  text-align: center;
+}
 
+.fourth h2
+{
+  text-transform: uppercase;
+  width: 60%;
+  border-bottom: 5px solid #f7c213;
+  line-height: 0.1em;
+  margin: 10px 0px 50px 20%;
+}
+.fourth h2 span {
+    background:#fff;
+    padding:0px 50px;
+}
+.fourth p
+{
+  color: #bebebe;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2em;
+}
+.fourth .description
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.fourth .description p
+{
+  color: #000;
+  width: 85%;
+  margin-left: 6%;
+  line-height: 2em;
+}
+.fourth .picture
+{
+  overflow: hidden;
+  padding-top: 30px;
+  height: 600px;
+}
+.fourth .picture img
+{
+  bottom: 144px;
+  position: relative ;
+  width: 100%;
 
-/*End Third Section*/
+}
+/*End fourth Section*/
