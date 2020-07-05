@@ -255,3 +255,41 @@ p{
 
 }
 /*End fourth Section*/
+
+/*Start Fifth Section*/
+.Fifth
+{
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  background-image: url('../Images/Slideshow/vv.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+}
+.Fifth .backgroundColor
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+}
+.Fifth .infoSection
+{
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  position: absolute;
+  margin-left: -335px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.Fifth .infoSection p
+{
+  font-weight: 900;
+  line-height: 500px;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+
+/*End fourth Section*/
