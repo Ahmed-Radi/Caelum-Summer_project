@@ -285,11 +285,119 @@ p{
 }
 .Fifth .infoSection p
 {
-  font-weight: 900;
+  font-weight: 700;
   line-height: 500px;
   letter-spacing: 5px;
   font-size: 30px;
 }
 
 
-/*End fourth Section*/
+/*End Fifth Section*/
+
+/*Start VI Section*/
+.portfolio
+{
+  padding: 100px 0px;
+  background-color: #4343;
+  overflow: hidden;
+}
+.contant
+{
+    display: inline-block;
+    min-height:  400px;
+    overflow: hidden;
+}
+.contant .prographSection h2
+{
+  text-transform: uppercase;
+  width: 40%;
+  border-right: 5px solid #f7c213;
+  line-height: 0.1em;
+  margin: 10px 0px 30px 10%;
+  margin-left: 40px;
+}
+.prographSection p
+{
+  margin-left: 40px;
+}
+.prographSection .infopragraph
+{
+    margin-top: 20px;
+}
+.prographSection p span
+{
+ margin-top: 30px;
+ color: #f7c213;
+ display: block;
+}
+.prographSection .boldtext
+{
+  margin-top: 0px;
+  color: #f7c213;
+  font-weight: bold;
+}
+.contant .imagesSection
+{
+  float: left;
+  width: 40%;
+}
+.contant .imagesSection img
+{
+  width: 100%;
+}
+.contant .prographSection
+{
+  float: left;
+  width: 60%;
+
+}
+/*----------middle---------------*/
+
+.contant .middleimagesSection
+{
+  float: right;
+  width: 40%;
+}
+.contant .middleimagesSection img
+{
+  width: 100%;
+}
+.contant .middleprographSection
+{
+  float: right;
+  width: 60%;
+}
+
+/*----------middle---------------*/
+
+
+/*
+.portfolio .contant
+{
+  width: 100%
+}
+.portfolio .contant .imagesSection
+{
+  width: 50%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.imagesSection  .imagesSection
+{
+  width: 100%;
+  height: 150px;
+  float: left;
+}
+.contant .prographSection
+{
+  float: right;
+  width: 50%;
+}
+.prographSection p
+{
+  float: right;
+  width: 100%;
+}*/
+
+/*End VI Section*/
