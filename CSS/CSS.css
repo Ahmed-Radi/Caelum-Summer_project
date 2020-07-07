@@ -298,37 +298,57 @@ p{
 .portfolio
 {
   padding: 100px 0px;
-  background-color: #4343;
   overflow: hidden;
 }
 .contant
 {
     display: inline-block;
-    min-height:  400px;
+    min-height:  450px;
     overflow: hidden;
 }
-.contant .prographSection h2
-{
-  text-transform: uppercase;
-  width: 40%;
-  border-right: 5px solid #f7c213;
-  line-height: 0.1em;
-  margin: 10px 0px 30px 10%;
-  margin-left: 40px;
+
+/* Start make a side line header*/
+
+.contant .prographSection h2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 50px 0px 30px 10%;
+    margin-left: 40px;
 }
+ .contant .prographSection h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 30%;
+    height: 3px;
+    content: '\a0';
+    background-color: #f7c213;
+    margin-left: 20px;
+}
+
+
+/*End make a side line header*/
+
 .prographSection p
 {
   margin-left: 40px;
+  width: 100%;
 }
 .prographSection .infopragraph
 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-.prographSection p span
+.prographSection p span a
 {
  margin-top: 30px;
  color: #f7c213;
  display: block;
+ text-decoration: none;
+}
+.prographSection .infopragraph .info
+{
+  font-weight: bold;
 }
 .prographSection .boldtext
 {
@@ -344,12 +364,12 @@ p{
 .contant .imagesSection img
 {
   width: 100%;
+  height: 380px;
 }
 .contant .prographSection
 {
   float: left;
   width: 60%;
-
 }
 /*----------middle---------------*/
 
@@ -361,43 +381,72 @@ p{
 .contant .middleimagesSection img
 {
   width: 100%;
+  padding-left: 20px;
+      height: 380px;
 }
 .contant .middleprographSection
 {
   float: right;
   width: 60%;
 }
+/* Start make a side line header*/
 
+.contant .middleprographSection h2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 50px 0px 30px 0px;
+}
+
+.contant .middleprographSection h2:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 30%;
+  height: 3px;
+  content: '\a0';
+  background-color: #f7c213;
+  margin-left: 20px;
+}
+
+/*End make a side line header*/
+
+.middleprographSection p
+{
+  width: 95%;
+}
+.middleprographSection .infopragraph
+{
+  margin-top: 20px;
+}
+.middleprographSection p span a
+{
+ margin-top: 30px;
+ color: #f7c213;
+ display: block;
+ text-decoration: none;
+}
+.middleprographSection .infopragraph .info
+{
+  font-weight: bold;
+}
+.middleprographSection .boldtext
+{
+  margin-top: 0px;
+  color: #f7c213;
+  font-weight: bold;
+}
 /*----------middle---------------*/
 
 
-/*
-.portfolio .contant
-{
-  width: 100%
-}
-.portfolio .contant .imagesSection
-{
-  width: 50%;
-  height: 150px;
-  overflow: hidden;
-}
-
-.imagesSection  .imagesSection
-{
-  width: 100%;
-  height: 150px;
-  float: left;
-}
-.contant .prographSection
-{
-  float: right;
-  width: 50%;
-}
-.prographSection p
-{
-  float: right;
-  width: 100%;
-}*/
-
 /*End VI Section*/
+
+
+
+
+
+
+
+
+
+/***************/
