@@ -297,7 +297,7 @@ p{
 /*Start VI Section*/
 .portfolio
 {
-  padding: 100px 0px;
+  padding-top: 100px;
   overflow: hidden;
 }
 .contant
@@ -440,6 +440,42 @@ p{
 
 
 /*End VI Section*/
+
+/*Strat VII Section*/
+.counter
+{
+  background-color:#222 ;
+  color: #fff;
+  height: 300px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.counter .counterUp
+{
+  overflow: hidden;
+  margin-top: 80px;
+  display: inline-block;
+  width: 100%;
+}
+.counter .one,.two,.three,.four
+{
+  width: 25%;
+  float: left;
+
+}
+.counter .one p,.two p,.three p,.four p{
+  font-weight: bold;
+  font-size: 75px;
+}
+.counter .one h5,.two h5,.three h5,.four h5
+{
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 5PX;
+  font-size: 15px;
+}
+
+/*End VII Section*/
 
 
 
