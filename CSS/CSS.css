@@ -262,7 +262,7 @@ p{
   height: 600px;
   width: 100%;
   text-align: center;
-  background-image: url('../Images/Slideshow/vv.jpg');
+  background-image: url('../Images/Page/vv.jpg');
   position: relative;
   background-repeat: no-repeat;
 }
@@ -334,10 +334,16 @@ p{
 {
   margin-left: 40px;
   width: 100%;
+  color: #bebebe;
 }
 .prographSection .infopragraph
 {
   margin-top: 20px;
+}
+.prographSection p span
+{
+  color: black;
+  padding: 0px 4px;
 }
 .prographSection p span a
 {
@@ -359,7 +365,7 @@ p{
 .contant .imagesSection
 {
   float: left;
-  width: 40%;
+  width: 50%;
 }
 .contant .imagesSection img
 {
@@ -369,33 +375,33 @@ p{
 .contant .prographSection
 {
   float: left;
-  width: 60%;
+  width: 50%;
 }
 /*----------middle---------------*/
 
 .contant .middleimagesSection
 {
   float: right;
-  width: 40%;
+  width: 50%;
 }
 .contant .middleimagesSection img
 {
   width: 100%;
   padding-left: 20px;
-      height: 380px;
+  height: 380px;
 }
 .contant .middleprographSection
 {
   float: right;
-  width: 60%;
+  width: 50%;
 }
 /* Start make a side line header*/
 
 .contant .middleprographSection h2 {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    margin: 50px 0px 30px 0px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 50px 0px 30px 0px;
 }
 
 .contant .middleprographSection h2:after {
@@ -414,6 +420,7 @@ p{
 .middleprographSection p
 {
   width: 95%;
+  color: #bebebe;
 }
 .middleprographSection .infopragraph
 {
@@ -461,7 +468,6 @@ p{
 {
   width: 25%;
   float: left;
-
 }
 .counter .one p,.two p,.three p,.four p{
   font-weight: bold;
@@ -476,13 +482,124 @@ p{
 }
 
 /*End VII Section*/
+.Courses
+{
+  height: 800px;
+  overflow: hidden;
+}
+.Courses #headerInfo
+{
+  text-align: center;
+  font-weight: bold;
+}
+.Courses #headerInfo:after,
+.Courses #headerInfo:before
+{
+   display: inline-block;
+   content: "";
+   border-top: .3rem solid #f7c213;
+   width: 4rem;
+   margin: -8px 1rem;
+   transform: translateY(-1rem);
+}
+.Courses .containerInfo
+{
+  margin-top: 60px;
+  width: 100%;
+}
+.Courses .containerInfo .CoursesInfo
+{
+  min-height: 300px;
+  width: 31%;
+  float: left;
+  margin-left: 20PX;
+  overflow: hidden;
+  background-color: white;
+}
+.Courses .containerInfo .CoursesInfo .CoursesImage
+{
+  min-height: 300px;
+  width: 100%;
+}
+.Courses .containerInfo .CoursesInfo .CoursesImage img
+{
+  min-height: 300px;
+  width: 100%;
+}
+.Courses .containerInfo .CoursesDescription
+{
+  padding: 20px;
+}
+.Courses .containerInfo .CoursesDescription h5
+{
+  font-weight: bold;
+  width: 100%;
+}
+.Courses .containerInfo .CoursesDescription p
+{
+  color: #bebebe
+}
+.Courses .containerInfo .CoursesInstructor
+{
+  color: #bebebe;
+  width: 100%;
+  padding: 20px;
+  height: 90px;
+  overflow: hidden;
+}
+.Courses .containerInfo .CoursesInstructor .instructorImage
+{
+  width: 40%;
+}
+.Courses .containerInfo .CoursesInstructor .instructorImage img
+{
+  height: 51px;
+  max-width: 40%;
+  float: left;
+  border-radius: 50%;
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription
+{
+  width: 84%;
+  float: left;
+  padding-left: 20px;
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription .instructorName
+{
+  float: left;
+  width: 50%;
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription .instructorName > h5
+{
+  font-weight: bold;
+  color: black;
+  margin-bottom:0px;
 
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription .instructorName > p
+{
+  font-size: 10px;
+  color: #bebebe;
+  display: inline-block;
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription .plus
+{
+  width: 10%;
+      text-align: center;
+      height: 25px;
+      float: right;
+      background-color: #f7c213;
+      border-radius: 50%;
+      margin-top: 12px;
+}
+.Courses .containerInfo .CoursesInstructor .instructorDescription .plus > p
+{
 
+      text-align: center;
+      font-weight: bold;
+      color: black;
+      margin-top: 2px;
 
-
-
-
-
-
+}
 
 /***************/
