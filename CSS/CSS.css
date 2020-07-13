@@ -513,8 +513,36 @@ p{
   width: 31%;
   float: left;
   margin-left: 20PX;
-  overflow: hidden;
   background-color: white;
+  position: relative;
+}
+.Courses .containerInfo .CoursesInfo .CoursePrice
+{
+  background-color: #f7c213;
+  position: absolute;
+  width: 40px;
+  height:40px;
+  margin-left: 17px;
+  top: -19px;
+  text-align: center;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.Courses .containerInfo .CoursesInfo:hover .CoursePrice
+{
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  border: 2px dashed #f7c213;
+  background: white;
+}
+.Courses .containerInfo .CoursesInfo .CoursePrice p
+{
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
 }
 .Courses .containerInfo .CoursesInfo .CoursesImage
 {
@@ -585,21 +613,32 @@ p{
 .Courses .containerInfo .CoursesInstructor .instructorDescription .plus
 {
   width: 10%;
-      text-align: center;
-      height: 25px;
-      float: right;
-      background-color: #f7c213;
-      border-radius: 50%;
-      margin-top: 12px;
+  text-align: center;
+  height: 25px;
+  float: right;
+  background-color: #f7c213;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.Courses .containerInfo .CoursesInstructor:hover .instructorDescription .plus
+{
+  text-align: center;
+  border:2px solid #f7c213;
+  background-color: white;
+  height: 27px;
+  width: 11%;
+  cursor: pointer;
+}
+.Courses .containerInfo .CoursesInstructor:hover .instructorDescription .plus > p
+{
+ margin: auto;
 }
 .Courses .containerInfo .CoursesInstructor .instructorDescription .plus > p
 {
-
-      text-align: center;
-      font-weight: bold;
-      color: black;
-      margin-top: 2px;
-
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 2px;
 }
 
 /***************/
