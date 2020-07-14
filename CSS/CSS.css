@@ -819,7 +819,7 @@ p{
   width: 95%;
   color: #bebebe;
 }
-.EventsprographSection .infopragraph
+.EventsprographSection .Eventsinfopragraph
 {
   margin-top: 20px;
 }
@@ -830,7 +830,7 @@ p{
  display: block;
  text-decoration: none;
 }
-.EventsprographSection .infopragraph .info
+.EventsprographSection .Eventsinfopragraph .info
 {
   font-weight: bold;
 }
