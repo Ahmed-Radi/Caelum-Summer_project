@@ -720,6 +720,130 @@ p{
 {
   color: white;
 }
-/*End Fifth Section*/
+/*End the Subscribe Section*/
+
+
+/*Start the Events Section*/
+.Events
+{
+  display: inline-block;
+  height:  560px;
+  overflow: hidden;
+  margin-top: 50px
+}
+
+.Events .EventsimagesSection
+{
+  float: right;
+  width: 50%;
+}
+.Events .EventsimagesSection img
+{
+  width: 100%;
+  height: 380px;
+}
+
+
+.Events .EventsimagesSection .Eventsheader
+{
+  width: 40%;
+  float: left;
+}
+/* Start make a side line header*/
+.Events .EventsimagesSection h2,
+.Events .EventsprographSection h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.Events .EventsimagesSection h2:after,
+.Events .EventsprographSection h2:after
+{
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 10%;
+  height: 4px;
+  content: '\a0';
+  background-color: #f7c213;
+  margin-left: 20px;
+}
+.Events .EventsimagesSection h2:after
+{
+  width: 26%;
+}
+/*End make a side line header*/
+.Events .EventsimagesSection .EventsPointers
+{
+  width: 30%;
+  float: left;
+  color: #bebebe;
+  margin-top: 7px;
+}
+
+.Events .EventsimagesSection .left span,.right span
+{
+  display: block;
+  border: 1px solid #bebebe;
+  padding: 6px;
+  text-align: center;
+}
+.Events .EventsimagesSection .left,.right
+{
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+.Events .EventsimagesSection .right
+{
+  float: right;
+  margin-right: 40%;
+}
+.Events .EventsimagesSection .left:hover span,.right:hover span
+{
+  color: #f7c213;
+  border: none;
+  font-size: 22px;
+  overflow: hidden;
+
+}
+.Events .EventsprographSection
+{
+  float: right;
+  width: 50%;
+}
+.EventsprographSection p
+{
+  width: 95%;
+  color: #bebebe;
+}
+.EventsprographSection .infopragraph
+{
+  margin-top: 20px;
+}
+.EventsprographSection p span a
+{
+ margin-top: 30px;
+ color: #f7c213;
+ display: block;
+ text-decoration: none;
+}
+.EventsprographSection .infopragraph .info
+{
+  font-weight: bold;
+}
+.EventsprographSection .boldtext
+{
+  margin-top: 0px;
+  color: #f7c213;
+  font-weight: bold;
+}
+
+
+/*End the Events Section*/
+
+
 
 /***************/
