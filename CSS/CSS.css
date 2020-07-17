@@ -460,7 +460,7 @@ p{
 .counter .counterUp
 {
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 7%;
   display: inline-block;
   width: 100%;
 }
@@ -515,7 +515,7 @@ p{
   min-height: 300px;
   width: 31%;
   float: left;
-  margin-left: 20PX;
+  margin-left: 2%;
   background-color: white;
   position: relative;
 }
@@ -668,7 +668,7 @@ p{
   color: #000;
   display: inline-block;
   position: absolute;
-  margin-left: -388px;
+  margin-left: -28%;
   margin-top: 30px;
   overflow: hidden;
   height: 100%;
@@ -677,7 +677,7 @@ p{
 .Subscribe .infoSection h3
 {
   font-weight: 1000;
-  margin-top:115px;
+  margin-top:15%;
   letter-spacing: 5px;
   color: white;
   font-size: 52px;
