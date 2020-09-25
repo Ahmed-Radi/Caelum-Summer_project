@@ -825,10 +825,10 @@ p{
 }
 .EventsprographSection p span a
 {
- margin-top: 30px;
- color: #f7c213;
- display: block;
- text-decoration: none;
+  margin-top: 30px;
+  color: #f7c213;
+  display: block;
+  text-decoration: none;
 }
 .EventsprographSection .Eventsinfopragraph .info
 {
@@ -844,6 +844,42 @@ p{
 
 /*End the Events Section*/
 
+/*Start Footer*/
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #f7c213;
+  overflow: hidden;
+}
+footer .footerLeft{
+  width: 50%;
+  padding: 40px;
+  float: left;
+  z-index: 1;
+}
 
+footer .footerLeft p{
+  padding-bottom: 10px;
+}
+footer .footerLeft a{
+  text-decoration: none;
+  color: #000;
+}
+footer .footerLeft .line{
+  border: 1px solid red;
+  margin-right: 7px;
+  margin-left: 9px;
+  display: inline-block;
+  width: 6px;
+  height: 25px;
+}
+
+/**/
+footer .footerRight{
+  float: right;
+  width: 50%;
+}
+
+/*End Footer*/
 
 /***************/
