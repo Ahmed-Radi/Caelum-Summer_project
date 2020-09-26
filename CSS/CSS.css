@@ -847,32 +847,53 @@ p{
 /*Start Footer*/
 footer{
   width: 100%;
-  height: 200px;
+  height: 325px;
   background-color: #f7c213;
   overflow: hidden;
 }
 footer .footerLeft{
-  width: 50%;
+  width: 25%;
   padding: 40px;
   float: left;
-  z-index: 1;
+  margin-left: 270px;
 }
 
 footer .footerLeft p{
   padding-bottom: 10px;
+
+}
+footer .footerLeft span{
+  position: relative;
+  margin-left: 5px;
+  top: 0;
+  transition: top ease 0.6s;
+}
+footer .footerLeft span:hover{
+  color: white;
+  top:-5px;
 }
 footer .footerLeft a{
   text-decoration: none;
+  position: relative;
   color: #000;
+  top: 0;
+  transition: top ease 0.6s;
+}
+footer .footerLeft a:hover{
+  color: white;
+  top:-5px;
 }
 footer .footerLeft .line{
-  border: 1px solid red;
+  border: 0px solid black;
   margin-right: 7px;
-  margin-left: 9px;
+  margin-left: 7px;
   display: inline-block;
-  width: 6px;
+  background-color: black;
+  width: 1px;
   height: 25px;
+  bottom: -2px;
 }
+
 
 /**/
 footer .footerRight{
@@ -880,6 +901,34 @@ footer .footerRight{
   width: 50%;
 }
 
+/* footer .footerRight .Personalimage{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+footer .footerRight .Personalimage img{
+  height: 226px;
+  width: 185px;
+  padding: 10px;
+} */
+footer .footerRight .information{
+  width: 40%;
+  height: 90%;
+  float: left;
+  background-color: #f4cf136b;
+  font-weight: 800;
+}
+footer .footerRight .information:hover {
+  color: #fff;
+  box-shadow: 0px -8px 39px 5px #f4cf1330 inset;
+  transition: right ease 0.9s;
+  border-radius: 10px;
+}
+footer .footerRight .information article{
+  padding: 21px;
+  margin-top: 39px;/*remove */
+  line-height: 33px;
+}
 /*End Footer*/
 
 /***************/
