@@ -1,3 +1,3 @@
-# SummerProject_1
+# Caelum - Summer project
 
 Just Front-End Project
