@@ -1,87 +1,25 @@
-/*Start Main*/
-body
-{
-  padding:0;
-  margin: 0;
-  height: 3000px;
+:root{
+  --main-color:#f7c212;
+  --second-color:#000020;
+  --third-color:#bbbbbb;
 }
+/*Start Main*/
+body{padding:0;margin: 0;}
 .container{width: 1170px;margin:auto;}
 p {margin-bottom: 0px;}
 /*End Main*/
 
 /*Start Navber*/
-.navbar
-{
-  background-color: #000020;
-  height: 50px;
-  overflow: hidden;
-}
+
 /*Start Navber Info*/
-.navbar .nav_info
-{
-  color: rgba(255, 250, 255, 0.5);
-  width: 75%;
-  float: left;
-}
 
-/*Start Email Section*/
-.navbar .nav_info .info_mail
-{
-  float: left;
-  text-align: center;
-  margin-top: 5px;
-  width: 25%;
-}
-.navbar .nav_info .info_mail img
-{
-  margin:0;
-  padding:0;
-  height: 19px;
-  width: 19px;
-  float: left;
-}
-.navbar .nav_info .info_mail p
-{
-  font-size: 13px;
-  text-align: center;
-  padding: 0;
-  color: #949494;
-  float: left;
-  margin-left: 10px;
-}
-/*End Email Section*/
 
-/*Start Phone Section*/
-.navbar .nav_info .info_phone
-{
-  width: 33%;
-  float: left;
-  margin-top: 5px;
-
-}
-.navbar .nav_info .info_phone img
-{
-  margin-top: 5px;
-  padding:0;
-  height: 15px;
-  width: 15px;
-  float: left;
-}
-.navbar .nav_info .info_phone p
-{
-  font-size: 13px;
-  text-align: center;
-  padding: 0;
-  color: #949494;
-  float: left;
-  margin-left: 10px;
-}
 /*End Phone Section*/
 
 /*End Navber Info*/
 
 /*Start Navber login*/
-.navbar .nav_login{width: 25%;float: left;}
+.navbar .nav_login{float: left;}
 .navbar .nav_login .Contact{float:left;}
 .navbar .nav_login p
 {
@@ -93,22 +31,20 @@ p {margin-bottom: 0px;}
   font-family: fantasy;
   letter-spacing: 2px;
 }
-.navbar .nav_login button
-{
+.navbar-dark form button{
   height: 30px;
   width: 90px;
   border: none;
   padding: 0px;
-  background-color: #f7c212;
+  background-color: var(--main-color);
   text-align: center;
-  float: right;
   border-radius: 20px;
   text-transform: uppercase;
   font-family: fantasy;
   letter-spacing: 2px;
   display: inline-block;
 }
-.navbar .nav_login button:hover{background-color: #f5f5f5;color: #f7c212;}
+.navbar-dark form  button:hover{background-color: #f5f5f5;color: #f7c212;}
 /*End Navber login*/
 
 /*End Navbar*/
@@ -117,48 +53,13 @@ p {margin-bottom: 0px;}
 
 /*Start Second Section in navbar*/
 
-.second_nav{height: 95px;}
-/*Logo*/
-.second_nav .logo{width: 30%;}
-.second_nav .logo img
-{
-  margin: 0px;
-  padding: 0px;
-  margin-top: 19px;
-  margin-left: 22px;
-  float: left;
+.navbar.navbar-light .navbar-nav.Navbar-right-position{
+  text-transform: uppercase;
+  padding: 20px;
 }
-/*End Logo*/
 
 /*NavBAR*/
-.second_nav .main_nav
-{
-  width: 63%;
-  float: right;
-  margin-top: 17px;
-  font-family: monospace;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.second_nav .main_nav ul
-{
-  list-style-type: none;
-  margin: 0px;
-  padding:0px;
-  height: 50px;
-  float: left;
-  overflow: hidden;
-}
-.second_nav .main_nav ul li{float: left;}
-.second_nav .main_nav ul li a
-{
-  display: block;
-  color: #000;
-  padding: 16px 18px;
-  text-align: center;
-  text-decoration:none;
-}
-.second_nav .main_nav ul li a:hover{color: #f7c213;}
+
 /*End NAVBAR*/
 
 /*End Second Section in navbar*/

@@ -1,0 +1,31 @@
+:root{
+    --main-color:#f7c212;
+    --second-color:#000020;
+    --third-color:#bbbbbb;
+}
+.navbar-dark .navbar-nav .nav-link p{
+    display: inline;
+}
+.navbar-dark .navbar-nav .nav-link i{
+    margin-right: 8px;
+    color: var(--main-color);
+}
+.navbar-dark form .login_link{
+    font-size: 18px;
+    color: var(--third-color);
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+/* Second Navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: medium;
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--main-color);
+}

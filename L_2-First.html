@@ -8,92 +8,80 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/normalise.css" />
     <link rel="stylesheet" href="./CSS/bootstrap.css"> <!-- Bootstrap v4.5.3-->
+    <link rel="stylesheet" href="./CSS/EditBootstrap.css">
     <link rel="stylesheet" href="CSS/CSS.css" />
   </head>
   <body>
     <!--Start First Section in Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <!--Start First section-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-envelope"></i><p>Ahmedradi743@gmail.com</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#"><i class="fa fa-mobile"></i><p>+201019278438</p></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+          <!-- <li class="nav-item">
+            <a class="nav-link login_link" href="#"><p>login</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <button class="nav">regedit</button>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+          </li> -->
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <a class="nav-link login_link" href="#"><p>login</p></a>
+            <a class="nav-link" href="#">
+              <button class="nav">regedit</button></a>
         </form>
       </div>
     </nav>
-    <!--Start First section-->
-
-    <div class="navbar">
-      <div class="container">
-        <div class="nav_info">
-          <div class="info_mail">
-            <img src="Images/Icons/email.png" alt="mail_icon" />
-            <p>Ahmedradi743@gmail.com</p>
-          </div>
-          <div class="info_phone">
-            <img src="Images/Icons/phone.png" alt="phone_icon" />
-            <p>+201019278438</p>
-          </div>
-        </div>
-        <div class="nav_login">
-          <div class="Contact">
-            <button class="nav">regedit</button>
-            <p>login</p>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!--End First section-->
 
     <!--Start Second Section in Navbar-->
 
     <!--Start Navbar-->
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="second_nav">
-        <div class="logo">
-          <img alt="Asd" src="Images/Logo/logo.jpg" />
-        </div>
-        <div class="main_nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">event</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Shortcodes</a></li>
-            <li><a href="#">Shop</a></li>
+        <a class="navbar-brand" href="#"><img alt="Asd" src="Images/Logo/logo.jpg" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse lead" id="navbarNav">
+          <ul class="nav  navbar-nav ml-auto Navbar-right-position">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shortcodes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
           </ul>
         </div>
-      </div>
     </div>
+  </nav>
 
     <!--End Navbar-->
 
@@ -516,9 +504,12 @@
       </section>
     </footer>
     <script src="./JQ/jquery-3.5.1.js"></script> <!--Use JQ to make Bootstrap work && must but it befor bootstrap.min.js file -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+
     <script src="./JS/bootstrap.min.js"></script> <!-- Bootstrap v4.5.3-->
 
     <!--Start Counter UP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="JS/js.js"></script>
     <script>
       $(".count").countUp();
