@@ -5,14 +5,8 @@ body
   margin: 0;
   height: 3000px;
 }
-.container
-{
-  width: 1170px;
-  margin:auto;
-}
-p{
-  margin-bottom: 0px;
-}
+.container{width: 1170px;margin:auto;}
+p {margin-bottom: 0px;}
 /*End Main*/
 
 /*Start Navber*/
@@ -87,19 +81,11 @@ p{
 /*End Navber Info*/
 
 /*Start Navber login*/
-.navbar .nav_login
-{
-  width: 25%;
-  float: left;
-}
-.navbar .nav_login .Contact
-{
-  float:left;
-}
+.navbar .nav_login{width: 25%;float: left;}
+.navbar .nav_login .Contact{float:left;}
 .navbar .nav_login p
 {
   margin-right: 20px;
-
   font-size: 18px;
   color: #bbbbbb;
   float: right;
@@ -122,12 +108,7 @@ p{
   letter-spacing: 2px;
   display: inline-block;
 }
-
-.navbar .nav_login button:hover
-{
-  background-color: #f5f5f5;
-  color: #f7c212;
-}
+.navbar .nav_login button:hover{background-color: #f5f5f5;color: #f7c212;}
 /*End Navber login*/
 
 /*End Navbar*/
@@ -136,15 +117,9 @@ p{
 
 /*Start Second Section in navbar*/
 
-.second_nav
-{
-  height: 95px;
-}
+.second_nav{height: 95px;}
 /*Logo*/
-.second_nav .logo
-{
-  width: 30%;
-}
+.second_nav .logo{width: 30%;}
 .second_nav .logo img
 {
   margin: 0px;
@@ -174,10 +149,7 @@ p{
   float: left;
   overflow: hidden;
 }
-.second_nav .main_nav ul li
-{
-  float: left;
-}
+.second_nav .main_nav ul li{float: left;}
 .second_nav .main_nav ul li a
 {
   display: block;
@@ -186,10 +158,7 @@ p{
   text-align: center;
   text-decoration:none;
 }
-.second_nav .main_nav ul li a:hover
-{
-  color: #f7c213;
-}
+.second_nav .main_nav ul li a:hover{color: #f7c213;}
 /*End NAVBAR*/
 
 /*End Second Section in navbar*/
@@ -219,8 +188,8 @@ p{
   margin: 10px 0px 50px 20%;
 }
 .fourth h2 span {
-    background:#fff;
-    padding:0px 50px;
+  background:#fff;
+  padding:0px 50px;
 }
 .fourth p
 {
@@ -302,29 +271,29 @@ p{
 }
 .contant
 {
-    display: inline-block;
-    min-height:  450px;
-    overflow: hidden;
+  display: inline-block;
+  min-height:  450px;
+  overflow: hidden;
 }
 
 /* Start make a side line header*/
 
 .contant .prographSection h2 {
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    margin: 50px 0px 30px 10%;
-    margin-left: 40px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 50px 0px 30px 10%;
+  margin-left: 40px;
 }
- .contant .prographSection h2:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 30%;
-    height: 3px;
-    content: '\a0';
-    background-color: #f7c213;
-    margin-left: 20px;
+.contant .prographSection h2:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 30%;
+  height: 3px;
+  content: '\a0';
+  background-color: #f7c213;
+  margin-left: 20px;
 }
 
 
@@ -347,15 +316,12 @@ p{
 }
 .prographSection p span a
 {
- margin-top: 30px;
- color: #f7c213;
- display: block;
- text-decoration: none;
+  margin-top: 30px;
+  color: #f7c213;
+  display: block;
+  text-decoration: none;
 }
-.prographSection .infopragraph .info
-{
-  font-weight: bold;
-}
+.prographSection .infopragraph .info{font-weight: bold;}
 .prographSection .boldtext
 {
   margin-top: 0px;
@@ -428,10 +394,10 @@ p{
 }
 .middleprographSection p span a
 {
- margin-top: 30px;
- color: #f7c213;
- display: block;
- text-decoration: none;
+  margin-top: 30px;
+  color: #f7c213;
+  display: block;
+  text-decoration: none;
 }
 .middleprographSection .infopragraph .info
 {
@@ -498,12 +464,12 @@ p{
 .Courses #headerInfo:after,
 .Courses #headerInfo:before
 {
-   display: inline-block;
-   content: "";
-   border-top: .3rem solid #f7c213;
-   width: 4rem;
-   margin: -3px 1rem;
-   transform: translateY(-1rem);
+  display: inline-block;
+  content: "";
+  border-top: .3rem solid #f7c213;
+  width: 4rem;
+  margin: -3px 1rem;
+  transform: translateY(-1rem);
 }
 .Courses .containerInfo
 {
@@ -557,19 +523,9 @@ p{
   min-height: 300px;
   width: 100%;
 }
-.Courses .containerInfo .CoursesDescription
-{
-  padding: 20px;
-}
-.Courses .containerInfo .CoursesDescription h5
-{
-  font-weight: bold;
-  width: 100%;
-}
-.Courses .containerInfo .CoursesDescription p
-{
-  color: #bebebe
-}
+.Courses .containerInfo .CoursesDescription{padding: 20px;}
+.Courses .containerInfo .CoursesDescription h5{font-weight: bold;width: 100%;}
+.Courses .containerInfo .CoursesDescription p{color: #bebebe}
 .Courses .containerInfo .CoursesInstructor
 {
   color: #bebebe;
@@ -589,12 +545,7 @@ p{
   float: left;
   border-radius: 50%;
 }
-.Courses .containerInfo .CoursesInstructor .instructorDescription
-{
-  width: 84%;
-  float: left;
-  padding-left: 20px;
-}
+.Courses .containerInfo .CoursesInstructor .instructorDescription{width: 84%;float: left;padding-left: 20px;}
 .Courses .containerInfo .CoursesInstructor .instructorDescription .instructorName
 {
   float: left;
@@ -819,10 +770,7 @@ p{
   width: 95%;
   color: #bebebe;
 }
-.EventsprographSection .Eventsinfopragraph
-{
-  margin-top: 20px;
-}
+.EventsprographSection .Eventsinfopragraph{margin-top: 20px;}
 .EventsprographSection p span a
 {
   margin-top: 30px;
@@ -830,10 +778,7 @@ p{
   display: block;
   text-decoration: none;
 }
-.EventsprographSection .Eventsinfopragraph .info
-{
-  font-weight: bold;
-}
+.EventsprographSection .Eventsinfopragraph .info{font-weight: bold;}
 .EventsprographSection .boldtext
 {
   margin-top: 0px;
@@ -896,10 +841,7 @@ footer .footerLeft .line{
 
 
 /**/
-footer .footerRight{
-  float: right;
-  width: 50%;
-}
+footer .footerRight{float: right;width: 50%;}
 
 /* footer .footerRight .Personalimage{
   width: 50%;
