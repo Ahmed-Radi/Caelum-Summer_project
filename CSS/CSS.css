@@ -9,28 +9,7 @@ body{padding:0;margin: 0;}
 p {margin-bottom: 0px;}
 /*End Main*/
 
-/*Start Navber*/
-
-/*Start Navber Info*/
-
-
-/*End Phone Section*/
-
-/*End Navber Info*/
-
-/*Start Navber login*/
-.navbar .nav_login{float: left;}
-.navbar .nav_login .Contact{float:left;}
-.navbar .nav_login p
-{
-  margin-right: 20px;
-  font-size: 18px;
-  color: #bbbbbb;
-  float: right;
-  text-transform: uppercase;
-  font-family: fantasy;
-  letter-spacing: 2px;
-}
+/* First Navbar */
 .navbar-dark form button{
   height: 30px;
   width: 90px;
@@ -45,22 +24,15 @@ p {margin-bottom: 0px;}
   display: inline-block;
 }
 .navbar-dark form  button:hover{background-color: #f5f5f5;color: #f7c212;}
-/*End Navber login*/
-
-/*End Navbar*/
+/*End First Navbar*/
 
 /**********************************/
 
 /*Start Second Section in navbar*/
 
-.navbar.navbar-light .navbar-nav.Navbar-right-position{
-  text-transform: uppercase;
-  padding: 20px;
-}
+.navbar.navbar-light .navbar-nav.Navbar-right-position{text-transform: uppercase;font-family: fantasy;}
 
-/*NavBAR*/
-
-/*End NAVBAR*/
+/*End Second NAVBAR*/
 
 /*End Second Section in navbar*/
 
